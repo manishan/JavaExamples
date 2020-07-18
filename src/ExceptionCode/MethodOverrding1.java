@@ -1,9 +1,5 @@
 package ExceptionCode;
 
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
-
-import java.io.IOException;
-
 class Parent{
     public void msg() throws ArithmeticException{
         System.out.println("in parent class");

@@ -1,7 +1,5 @@
 package ExceptionCode;
 
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
-
 import java.io.IOException;
 
 public class TestThrows1 {
