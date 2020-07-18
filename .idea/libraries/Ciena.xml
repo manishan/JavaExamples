@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Ciena">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/production/JavaPractice/Ciena.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
