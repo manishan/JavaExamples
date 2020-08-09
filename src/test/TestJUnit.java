@@ -1,3 +1,4 @@
+/*
 package test;
 
 import StringCode.MessageUtil;
@@ -17,4 +18,4 @@ public class TestJUnit {
     public void testPrintMsg(){
         assertEquals(message,msgUtil.printMessage());
     }
-}
+}*/

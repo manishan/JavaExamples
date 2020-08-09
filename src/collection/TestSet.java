@@ -2,6 +2,7 @@ package collection;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class TestSet {
     int id;
@@ -15,6 +16,7 @@ public class TestSet {
         s.add("spring");
         s.add("spring");
         System.out.println(s);
+        System.out.println("s hashcode is "+s.hashCode());
         TestSet ts1= new TestSet(1,"manisha");
         TestSet ts2= new TestSet(1,"manisha");
         ArrayList<TestSet> stdList =  new ArrayList<TestSet>();
@@ -25,6 +27,8 @@ public class TestSet {
         s1.add(ts1);
         s1.add(ts2);
         System.out.println(s1);
+        Iterator itr = s1.iterator();
+        while(itr.hasNext()) System.out.println(itr.next());
        // s1.addAll(stdList);
 
 
@@ -41,6 +45,10 @@ HashMap<Integer,String> hm = new HashMap<Integer, String>();
 */
 
     }
+
+//    public String toString(){
+//     return this.name+" "+this.id;
+//    }
 
 }
 
